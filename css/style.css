@@ -106,4 +106,14 @@ form input[type = submit]{
     background-color: #363A6d;
     border: 0px solid #ccc;
     display: inline-block;
+    cursor: pointer;
+}
+.form form .warning{
+    font-size: 12px;
+}
+.form [type=submit]:hover{
+background-color: #ccc;
+border:  2px solid #363A6d;
+color: #363A6d;
+transition: 0.4s;
 }
