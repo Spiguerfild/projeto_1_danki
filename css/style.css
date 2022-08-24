@@ -32,7 +32,7 @@ body {
 .header {
     width: 100%;
     height: 60px;
-    background-color: #0E011F;
+    background-color: #160231;
 }
 
 .header img {
@@ -60,9 +60,10 @@ body {
     width: 400px;
     height: calc(100% + 30px);
     background-color: #040014;
+    float: right;
     position: relative;
     top: -15px;
-    display: inline-block;
+  
     border: 4px solid #8579DB;
 
 
@@ -72,5 +73,94 @@ body {
 font-weight: normal;
 color: aliceblue;
 font-size: 30px;
+text-align: center;
+}
+.input-container{
+    margin-top: 20px;
+  text-align: left;
+}
+.input-container span,.form p {
+    display: inline-block;
+    width: 100%;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0 ;
+}
+.input-container input[type = text]{
+    margin-top: 8px;
+    width: 344px;
+    height: 35px;
+    border: 2px solid #2c2f53;
+}
+.form .input-submit-container{
+    text-align: center;
+
+}
+form input[type = submit]{
+    color: aliceblue;
+    margin-top: 8px;
+    width: 180px;
+    height: 46px;
+    background-color: #363A6d;
+    border: 0px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+}
+.form form .warning{
+    font-size: 12px;
+}
+.form [type=submit]:hover{
+background-color: #ccc;
+border:  2px solid #363A6d;
+color: #363A6d;
+transition: 0.4s;
+}
+.container-list{
+    text-align: left;
+    margin-top: 70px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(36, 39, 78, 0.7);
+    padding: 30px 5px 5px 10px;
+}
+.container-list ul{
+    list-style-position: inside;
+}
+.container-list ul li{
+    color: aliceblue;
+margin-top: 25px;
+}
+.container-2{
+    padding: 70px 0;
+    background-color: #aaaaaa;
+    text-align: center;
+}
+.container-2 h2{
+    font-weight: 900;
+    font-size: 35px;
+
+}
+.container-2 p{
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.arrow{
+    position: relative;
+    top: 85px;
+    left: 50%;
+    margin-left: -20px;
+width: 50px;
+height: 44px;
+background-image: url(../img/Arrow-down.svg.png);
+background-size: 100% 100%;
+border: 5px solid #160231;
+border-radius: 50%;
+background-color: #8579DB;
 
 }
