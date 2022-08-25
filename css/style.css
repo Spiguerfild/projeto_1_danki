@@ -20,7 +20,7 @@ body {
 
 .center {
     width: 1200px;
-
+padding: 0 2%;
     margin: 0 auto;
 
 }
@@ -30,6 +30,7 @@ body {
 }
 
 .header {
+    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: #160231;
@@ -47,7 +48,7 @@ body {
     background-image: url(../img/backgroundcp.jpg);
     background-size: cover;
     background-position: center;
-
+    min-width: 1200px;
 }
 
 .container-banner>.center {
@@ -119,11 +120,11 @@ transition: 0.4s;
 }
 .container-list{
     text-align: left;
-    margin-top: 70px;
+    margin-top: 100px;
     float: left;
-    width: 619px;
+    width: 589px;
     height: 270px;
-    background-color: rgba(36, 39, 78, 0.7);
+    background-color: rgba(36, 39, 78, 0.8);
     padding: 30px 5px 5px 10px;
 }
 .container-list ul{
@@ -132,11 +133,13 @@ transition: 0.4s;
 .container-list ul li{
     color: aliceblue;
 margin-top: 25px;
+font-weight: 700;
 }
 .container-2{
     padding: 70px 0;
-    background-color: #aaaaaa;
+    background-color: #cacaca;
     text-align: center;
+    min-width: 1200px;
 }
 .container-2 h2{
     font-weight: 900;
@@ -156,11 +159,38 @@ margin-top: 25px;
     left: 50%;
     margin-left: -20px;
 width: 50px;
-height: 44px;
+height: 48px;
 background-image: url(../img/Arrow-down.svg.png);
 background-size: 100% 100%;
 border: 5px solid #160231;
 border-radius: 50%;
 background-color: #8579DB;
 
+}
+.section-1{
+    padding: 90px 0;
+    min-width: 1200px;
+}
+.section-1 h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+   float: left;
+   width: 33.333%;
+padding: 30px;
+}
+.container-single p{
+    padding: 20px 25px;
+    font-size: 15px;
+    text-align: justify;
+}
+.container-single img{
+    width: 60px;
 }
